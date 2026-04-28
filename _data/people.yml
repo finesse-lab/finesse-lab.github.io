@@ -1,0 +1,81 @@
+- name: Erman Acar
+  role: Lab Lead
+  photo: /assets/img/prof_pic.jpg
+  link: https://sup-erman.github.io/
+  title: Tenured Assistant Professor, University of Amsterdam
+  affiliation: Institute for Logic, Language and Computation and Informatics Institute
+  focus: Neurosymbolic AI, causality, multiagent systems, and explainability for socially consequential financial decision-making
+  note: Finesse Lab is part of SIAS at the University of Amsterdam, with strong ties to ILLC and AI4FinTech.
+
+- name: Adia Lumadjeng
+  role: PhD Student
+  photo: https://static.wixstatic.com/media/48d6c1_04eba8eb5a8247c5bb079eda855ddaec~mv2.png/v1/fill/w_209,h_224,q_90,enc_avif,quality_auto/48d6c1_04eba8eb5a8247c5bb079eda855ddaec~mv2.png
+  link: https://www.sias-uva.nl/people?pgid=lctdsrio2-2cae80e1-1d30-4cc7-b200-c380238892b4
+  title: High-performance Structural Equation Learning for Finance
+  co_supervisors: Ilker Birbil
+  focus: Structural equation learning, finance, and explainable machine learning
+
+- name: Andreas Sauter
+  role: PhD Student
+  display_name: Andreas Sauter (VU)
+  photo: /assets/img/andreas.png
+  link: https://sauter.at/
+  title: Causal Reinforcement Learning and Discovery
+  co_supervisors: Frank van Harmelen (VU), Aske Plaat (University of Leiden)
+  focus: Causality, reinforcement learning, and neurosymbolic AI
+
+- name: Angela van Sprang
+  role: PhD Student
+  photo: https://www.illc.uva.nl/thumbnails/person/Sprang.jpg.jpg?size=person
+  link: https://www.illc.uva.nl/People/PhDstudents/person/5626/Angela-van-Sprang
+  title: Interpretable Time Series Transformers
+  co_supervisors: Jelle Zuidema
+  focus: Concept bottlenecks, transformer interpretability, and multimodal consistency
+
+- name: Arco van Breda
+  role: PhD Student
+  photo: /assets/img/arco.png
+  title: Mechanistic Control for Tabular Transformers
+  co_supervisors: Saba Amiri, Ana Oprescu
+  focus: Mechanistic interpretability, transformers, and neurosymbolic control
+
+- name: Johannes Bendler
+  role: PhD Student
+  display_name: Johannes Bendler (VU)
+  photo: https://research.vu.nl/files-asset/436953126/Vrije_stijl_a89aypxk-min.jpg?f=jpg&w=160
+  link: https://research.vu.nl/en/persons/johannes-bendler/
+  title: Categorizing Neurosymbolic Hybrid Intelligence Systems
+  co_supervisors: Frank van Harmelen (VU), Annette ten Teije (VU)
+  focus: Neurosymbolic systems and category theory
+
+- name: Mayesha Tasnim
+  role: PhD Student
+  photo: https://static.wixstatic.com/media/e6443c_219970a2bba648cb8a897d26e3fe9795~mv2.jpg/v1/fill/w_378,h_364,q_90,enc_avif,quality_auto/e6443c_219970a2bba648cb8a897d26e3fe9795~mv2.jpg
+  link: https://www.sias-uva.nl/people?pgid=lctdsrio2-d3fc9559-bdee-4306-bcc8-f8560acc0c51
+  title: Multi-Agent Learning for Fair and Transparent School Choice
+  co_supervisors: Sennay Ghebreab
+  focus: Civic AI, matching mechanisms, strategic behavior, and responsible AI
+
+- name: Philip Wozny
+  role: PhD Student
+  display_name: Philip Wozny (VU)
+  photo: /assets/img/wozny.png
+  link: https://www.tilburguniversity.edu/staff/p-j-wozny?lan=en&x=0
+  title: Multi-Agent Reinforcement Learning for Equitable and Sustainable Tax Policy Design
+  co_supervisors: Albert Bomer (VU)
+  focus: Multiagent systems, reinforcement learning, taxation, and climate policy
+
+- name: Raj Bhalwankar
+  role: PhD Student
+  photo: /assets/img/raj.png
+  title: Reasoning in Tabular Foundation Models
+  co_supervisors: Pasquale Minervini (University of Edinburgh)
+  focus: Tabular foundation models, reasoning, and representation learning
+
+- name: Satchit Chatterji
+  role: PhD Student
+  photo: https://www.hybrid-intelligence-centre.nl/wp-content/uploads/2025/09/satchit_chatterji_profile.png
+  link: https://www.hybrid-intelligence-centre.nl/who-is-who/satchit-chatterji/
+  title: Neurosymbolic AI for Safety and Norms in Multi-Agent Reinforcement Learning
+  co_supervisors: Shihan Wang, Giovanni Sileno
+  focus: Logic, AI safety, game theory, and multiagent reinforcement learning

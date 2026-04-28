@@ -1,0 +1,38 @@
+<div class="lab-people-grid{% if include.compact %} compact{% endif %}">
+  {% for person in include.people %}
+    <section class="lab-person-card{% if person.role == 'Lab Lead' %} lead{% endif %}">
+      {% if person.link %}
+        <a class="lab-person-photo-link" href="{{ person.link }}">
+      {% endif %}
+      {% if person.photo contains 'http' %}
+        <img class="lab-person-photo" src="{{ person.photo }}" alt="{{ person.name }}">
+      {% else %}
+        <img class="lab-person-photo" src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+      {% endif %}
+      {% if person.link %}
+        </a>
+      {% endif %}
+      <div class="lab-person-body">
+        <p class="lab-person-role">{{ person.role }}</p>
+        <h3 class="lab-person-name">
+          {% if person.link %}
+            <a href="{{ person.link }}">{{ person.display_name | default: person.name }}</a>
+          {% else %}
+            {{ person.display_name | default: person.name }}
+          {% endif %}
+        </h3>
+        <p class="lab-person-title">{{ person.title }}</p>
+        {% if person.affiliation %}
+          <p class="lab-person-meta"><strong>Affiliation:</strong> {{ person.affiliation }}</p>
+        {% endif %}
+        {% if person.co_supervisors %}
+          <p class="lab-person-meta"><strong>Co-supervised with:</strong> {{ person.co_supervisors }}</p>
+        {% endif %}
+        <p class="lab-person-meta"><strong>Focus:</strong> {{ person.focus }}</p>
+        {% if person.note %}
+          <p class="lab-person-note">{{ person.note }}</p>
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+</div>

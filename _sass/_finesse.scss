@@ -1,0 +1,553 @@
+/*******************************************************************************
+ * Finesse Lab styles
+ ******************************************************************************/
+
+.post-header .post-title {
+  font-family: "Bodoni 72 Smallcaps", "Bodoni 72", "Didot", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: none;
+}
+
+.navbar {
+  background: rgba(255, 253, 251, 0.96);
+  border-bottom: 1px solid rgba(165, 18, 31, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.navbar .container {
+  justify-content: center;
+}
+
+.navbar-brand.title {
+  display: none;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav-item {
+  margin: 0 0.2rem;
+  list-style: none;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #171314;
+}
+
+.lab-site-banner {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.95rem 1rem 0.1rem;
+}
+
+.lab-site-banner-link {
+  display: inline-flex;
+  width: min(100%, 580px);
+}
+
+.lab-site-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-header .desc,
+.post-header .post-description {
+  font-family: "Optima", "Palatino Linotype", "Book Antiqua", serif;
+  color: #6a3f43;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+}
+
+.profile img {
+  padding: 0.75rem;
+  border: 1px solid rgba(165, 18, 31, 0.12);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #fffdfb 0%, #fff7f5 100%);
+}
+
+.post-header {
+  margin-top: 0.15rem;
+}
+
+.post,
+.post article {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lab-kicker {
+  margin: 0 0 0.65rem;
+  color: #a5121f;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.lab-page-intro {
+  margin-bottom: 1.75rem;
+  color: #54474a;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.finesse-home {
+  display: grid;
+  gap: 3.25rem;
+  padding-bottom: 1rem;
+}
+
+.lab-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid rgba(165, 18, 31, 0.12);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, rgba(165, 18, 31, 0.1), transparent 42%),
+    linear-gradient(180deg, #fffdfb 0%, #fff7f5 100%);
+  box-shadow: 0 24px 60px rgba(22, 14, 15, 0.08);
+}
+
+.lab-hero h1 {
+  margin: 0;
+  color: #1f191a;
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  line-height: 0.94;
+}
+
+.lab-subtitle {
+  margin: 0.8rem 0 1rem;
+  color: #5d3538;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-weight: 600;
+}
+
+.lab-mission,
+.lab-affiliations,
+.lab-hero-caption {
+  color: #4e4042;
+  line-height: 1.75;
+}
+
+.lab-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.35rem;
+}
+
+.lab-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #a5121f;
+  border-radius: 999px;
+  background: #a5121f;
+  color: #fff8f6;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.lab-button:hover {
+  color: #fff8f6;
+  background: #880f19;
+  box-shadow: 0 10px 24px rgba(165, 18, 31, 0.22);
+  transform: translateY(-1px);
+}
+
+.lab-button.secondary {
+  background: transparent;
+  color: #a5121f;
+}
+
+.lab-button.secondary:hover {
+  color: #fff8f6;
+}
+
+.lab-hero-visual {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.lab-hero-visual img {
+  width: min(100%, 340px);
+  filter: drop-shadow(0 18px 40px rgba(165, 18, 31, 0.16));
+}
+
+.lab-section {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.lab-section-heading h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.lab-card-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.lab-card-grid.three-up {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lab-card,
+.lab-publication-card,
+.lab-research-card,
+.lab-person-card,
+.lab-contact-card,
+.lab-pillar {
+  border: 1px solid rgba(165, 18, 31, 0.1);
+  border-radius: 22px;
+  background: #fffdfb;
+  box-shadow: 0 12px 30px rgba(24, 18, 18, 0.05);
+}
+
+.lab-card,
+.lab-publication-card,
+.lab-research-card,
+.lab-pillar {
+  padding: 1.35rem;
+}
+
+.lab-card h3,
+.lab-publication-card h3,
+.lab-pillar h3 {
+  margin-top: 0;
+}
+
+.lab-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.lab-pillar ul,
+.lab-link-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.lab-illustration img {
+  width: 100%;
+  border-radius: 24px;
+  border: 1px solid rgba(165, 18, 31, 0.1);
+  background: linear-gradient(180deg, #fffdfb 0%, #fff7f5 100%);
+}
+
+.lab-publication-list,
+.lab-research-stack {
+  display: grid;
+  gap: 1rem;
+  text-align: left;
+  justify-items: stretch;
+}
+
+.lab-publication-card {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  text-align: left;
+  justify-items: start;
+  width: 100%;
+  box-sizing: border-box;
+  justify-self: stretch;
+}
+
+.lab-publication-card > * {
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.lab-publication-meta {
+  margin: 0 0 0.45rem;
+  color: #a5121f;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.lab-publication-card h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.34rem;
+  line-height: 1.3;
+}
+
+.lab-publication-card h2 a {
+  display: inline;
+}
+
+.lab-publication-card p:last-child {
+  margin-bottom: 0;
+}
+
+.lab-publication-authors,
+.lab-research-methods,
+.lab-research-links,
+.lab-person-meta,
+.lab-person-role {
+  color: #5a4d50;
+}
+
+
+.lab-section-cta {
+  margin: 0;
+  font-weight: 600;
+}
+
+.lab-people-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.lab-people-section {
+  margin-bottom: 2rem;
+}
+
+.lab-people-section h2 {
+  margin-bottom: 1rem;
+}
+
+.lab-about-gallery {
+  margin-top: 2rem;
+}
+
+.lab-about-gallery .lab-people-section {
+  margin-bottom: 1.15rem;
+}
+
+.lab-about-gallery .lab-people-section h2 {
+  margin-bottom: 0.65rem;
+  font-size: 1.08rem;
+}
+
+.lab-people-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem 0.55rem;
+}
+
+.lab-people-gallery-card {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.lab-people-gallery-card h3 {
+  margin: 0.7rem 0 0.2rem;
+  font-size: 1.08rem;
+}
+
+.lab-people-gallery-card p {
+  margin: 0;
+  color: #5a4d50;
+}
+
+.lab-people-gallery-link,
+.lab-people-gallery-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lab-people-gallery-photo {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(24, 18, 18, 0.08);
+  border: 1px solid rgba(165, 18, 31, 0.08);
+  background: #fffdfb;
+}
+
+.lab-about-gallery .lab-people-gallery {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.45rem 0.35rem;
+}
+
+.lab-about-gallery .lab-people-gallery-photo {
+  width: 108px;
+  height: 108px;
+  border-radius: 14px;
+}
+
+.lab-about-gallery .lab-people-gallery-card h3 {
+  margin-top: 0.4rem;
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
+.lab-about-gallery .lab-people-gallery-card p {
+  font-size: 0.84rem;
+  line-height: 1.15;
+}
+
+.lab-people-grid.compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lab-person-card {
+  display: grid;
+  grid-template-columns: 136px minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.lab-person-card.lead {
+  background:
+    radial-gradient(circle at top right, rgba(165, 18, 31, 0.08), transparent 40%),
+    #fffdfb;
+}
+
+.lab-person-photo {
+  width: 136px;
+  height: 136px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 10px 26px rgba(20, 14, 15, 0.09);
+}
+
+.lab-person-role {
+  margin: 0 0 0.15rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lab-person-name {
+  margin: 0 0 0.35rem;
+  font-size: 1.3rem;
+}
+
+.lab-person-title {
+  margin: 0 0 0.5rem;
+  color: #251e1f;
+  font-size: 1.04rem;
+  font-weight: 600;
+}
+
+.lab-person-meta,
+.lab-person-note {
+  margin: 0.2rem 0 0;
+  line-height: 1.6;
+}
+
+.lab-contact-card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding: 1.4rem;
+  margin-bottom: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(165, 18, 31, 0.08), transparent 40%),
+    #fffdfb;
+}
+
+@media (max-width: 960px) {
+  .lab-hero,
+  .lab-card-grid.three-up,
+  .lab-pillars,
+  .lab-contact-card {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-people-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lab-about-gallery .lab-people-gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lab-people-grid.compact {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .navbar .container {
+    justify-content: space-between;
+  }
+
+  .navbar-brand.title {
+    display: inline-flex;
+  }
+
+  .navbar-collapse {
+    display: block !important;
+    flex-basis: 100%;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  .lab-site-banner {
+    padding-top: 0.9rem;
+  }
+
+  .lab-people-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-people-gallery-photo {
+    width: 156px;
+    height: 156px;
+  }
+
+  .lab-about-gallery .lab-people-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lab-about-gallery .lab-people-gallery-photo {
+    width: 92px;
+    height: 92px;
+  }
+
+  .lab-hero {
+    padding: 1.35rem;
+  }
+
+  .lab-person-card {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-person-photo {
+    width: 112px;
+    height: 112px;
+  }
+}

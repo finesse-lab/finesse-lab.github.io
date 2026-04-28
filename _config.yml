@@ -1,0 +1,155 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Finesse Lab
+first_name:
+middle_name:
+last_name:
+email: erman.acar@uva.nl
+description: >
+  Finance-inspired Neurosymbolic Systems for Safety & Explainability.
+footer_text: >
+  Finesse Lab at the <a href="https://www.uva.nl/" target="_blank">University of Amsterdam</a>.
+keywords: finesse, neurosymbolic ai, explainable ai, ai safety, fintech, research lab
+
+lang: en
+icon: finesse-shield.svg
+
+url: https://finesse-lab.github.io
+baseurl:
+last_updated: false
+impressum_path:
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+highlight_theme_light: github
+highlight_theme_dark: native
+repo_theme_light: default
+repo_theme_dark: dark
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+max_width: 860px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+
+serve_og_meta: true
+serve_schema_org: true
+og_image:
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: finesse-lab
+linkedin_username:
+scholar_userid:
+blogger_url:
+contact_note: >
+  Prospective students, collaborators, and partners are welcome to reach out.
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics:
+google_site_verification:
+bing_site_verification:
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name:
+blog_nav_title:
+blog_description:
+permalink: /blog/:year/:title/
+
+pagination:
+  enabled: false
+
+giscus:
+  repo:
+  repo_id:
+  category:
+  category_id:
+  mapping:
+  strict:
+  reactions_enabled:
+  input_position:
+  theme:
+  emit_metadata:
+  lang:
+
+disqus_shortname:
+external_sources: []
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections: {}
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages"]
+exclude:
+  - bin
+  - vendor
+  - Gemfile.lock
+keep_files:
+  - CNAME
+  - .nojekyll
+  - .git
+
+plugins:
+  - jekyll-archives
+  - jekyll-diagrams
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-link-attributes
+  - jekyll-twitter-plugin
+  - jemoji
+
+defaults:
+  - scope:
+      path: "assets/**/*.*"
+    values:
+      sitemap: false
+
+jekyll-minifier:
+  exclude: ["robots.txt"]
+
+enable_darkmode: false
+enable_progressbar: false
+enable_navbar_social: false
+news_scrollable: false
+news_limit:

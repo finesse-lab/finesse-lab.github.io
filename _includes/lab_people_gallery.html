@@ -1,0 +1,25 @@
+<div class="lab-people-gallery{% if include.compact %} compact{% endif %}">
+  {% for person in include.people %}
+    <article class="lab-people-gallery-card">
+      {% if person.link %}
+        <a class="lab-people-gallery-link" href="{{ person.link }}">
+      {% endif %}
+      {% if person.photo contains 'http' %}
+        <img class="lab-people-gallery-photo" src="{{ person.photo }}" alt="{{ person.name }}">
+      {% else %}
+        <img class="lab-people-gallery-photo" src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+      {% endif %}
+      {% if person.link %}
+        </a>
+      {% endif %}
+      <h3>
+        {% if person.link %}
+          <a href="{{ person.link }}">{{ person.display_name | default: person.name }}</a>
+        {% else %}
+          {{ person.display_name | default: person.name }}
+        {% endif %}
+      </h3>
+      <p>{{ person.role }}</p>
+    </article>
+  {% endfor %}
+</div>

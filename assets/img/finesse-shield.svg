@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Finesse Lab shield logo</title>
+  <desc id="desc">A red shield containing a neural network on the left and a rising chart on the right.</desc>
+  <defs>
+    <linearGradient id="shield-fill" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#c61724"/>
+      <stop offset="100%" stop-color="#8d0f19"/>
+    </linearGradient>
+  </defs>
+  <path d="M380 40c80 52 198 68 286 76v195c0 189-98 305-286 409C192 616 94 500 94 311V116c88-8 206-24 286-76Z" fill="#fff7f5" stroke="url(#shield-fill)" stroke-width="24"/>
+  <path d="M380 62v628" stroke="url(#shield-fill)" stroke-width="16"/>
+  <path d="M380 98c67 43 166 57 240 64v149c0 157-78 253-240 347-162-94-240-190-240-347V162c74-7 173-21 240-64Z" fill="none" stroke="#d4202d" stroke-opacity=".12" stroke-width="6"/>
+  <g stroke="#cf1a27" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M172 234 232 182 310 208 332 294 286 358 214 338 176 272"/>
+    <path d="M232 182 290 138 344 170"/>
+    <path d="M310 208 344 170"/>
+    <path d="M232 182 214 338"/>
+    <path d="M214 338 286 358"/>
+    <path d="M286 358 332 294"/>
+    <path d="M176 272 232 182"/>
+    <path d="M176 272 214 338"/>
+    <path d="M232 182 310 208"/>
+    <path d="M290 138 310 208"/>
+    <path d="M290 138 344 170"/>
+    <path d="M232 182 290 138"/>
+    <path d="M176 272 332 294"/>
+    <path d="M214 338 332 294"/>
+  </g>
+  <g fill="#cf1a27">
+    <circle cx="172" cy="234" r="18"/>
+    <circle cx="232" cy="182" r="18"/>
+    <circle cx="290" cy="138" r="18"/>
+    <circle cx="344" cy="170" r="18"/>
+    <circle cx="310" cy="208" r="18"/>
+    <circle cx="176" cy="272" r="18"/>
+    <circle cx="214" cy="338" r="18"/>
+    <circle cx="286" cy="358" r="18"/>
+    <circle cx="332" cy="294" r="18"/>
+  </g>
+  <g fill="#cf1a27">
+    <rect x="452" y="386" width="60" height="170" rx="8"/>
+    <rect x="530" y="334" width="60" height="222" rx="8"/>
+    <rect x="608" y="278" width="60" height="278" rx="8"/>
+  </g>
+  <path d="M444 274c82-39 149-76 226-126l-16 58 38 6c-59 82-131 141-232 173-9 3-17-9-10-17l31-36-47-15c-11-4-11-19 0-24Z" fill="#cf1a27"/>
+</svg>
+
