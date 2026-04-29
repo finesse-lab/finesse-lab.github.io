@@ -131,7 +131,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-imagemagick
-  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
@@ -144,11 +143,6 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
-
-jekyll-minifier:
-  exclude: ["robots.txt"]
-  uglifier_args:
-    harmony: true
 
 enable_darkmode: false
 enable_progressbar: false

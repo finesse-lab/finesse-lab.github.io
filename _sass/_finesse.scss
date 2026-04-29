@@ -57,15 +57,32 @@
   padding: 0.95rem 1rem 0.1rem;
 }
 
+.lab-site-banner.lab-site-banner-compact {
+  justify-content: flex-end;
+  padding: 0.35rem 1rem 0.05rem;
+}
+
 .lab-site-banner-link {
   display: inline-flex;
-  width: min(100%, 580px);
+  width: 100%;
+  max-width: 580px;
+}
+
+.lab-site-banner-compact .lab-site-banner-link {
+  width: auto;
+  max-width: none;
+  margin-left: auto;
 }
 
 .lab-site-banner img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.lab-site-banner-image-compact {
+  width: 240px !important;
+  max-width: 240px !important;
 }
 
 .post-header .desc,

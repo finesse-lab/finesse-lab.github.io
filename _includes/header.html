@@ -84,9 +84,9 @@
           </div>
         </div>
       </nav>
-      <div class="lab-site-banner">
-        <a href="{{ '/' | relative_url }}" class="lab-site-banner-link" aria-label="Finesse Lab home">
-          <img src="{{ '/assets/img/finesse-wordmark.png' | relative_url }}" alt="Finesse Lab wordmark">
+      <div class="lab-site-banner{% unless page.permalink == '/' %} lab-site-banner-compact{% endunless %}">
+        <a href="{{ '/' | relative_url }}" class="lab-site-banner-link" aria-label="Finesse Lab home"{% if page.permalink == '/' %} style="max-width: 580px;"{% else %} style="max-width: 240px; margin-left: auto;"{% endif %}>
+          <img src="{{ '/assets/img/finesse-wordmark.png' | relative_url }}" alt="Finesse Lab wordmark" style="width: 100%; height: auto; display: block;">
         </a>
       </div>
 {% if site.enable_progressbar %}
