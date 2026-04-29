@@ -147,6 +147,8 @@ defaults:
 
 jekyll-minifier:
   exclude: ["robots.txt"]
+  uglifier_args:
+    harmony: true
 
 enable_darkmode: false
 enable_progressbar: false
