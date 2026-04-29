@@ -144,7 +144,7 @@ defaults:
     values:
       sitemap: false
 
-enable_darkmode: false
+enable_darkmode: true
 enable_progressbar: false
 enable_navbar_social: false
 news_scrollable: false
