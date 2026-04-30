@@ -14,10 +14,17 @@
 
 - title: "ECSEL: Explainable Classification via Signomial Equation Learning"
   authors: Adia Lumadjeng, Ilker Birbil, Erman Acar
-  venue: ArXiv
+  venue: ICML 2026 (to appear)
   year: 2026
   link: https://arxiv.org/pdf/2601.21789
   summary: Equation-based explainability for classification in settings where transparency matters.
+
+- title: "Uniform Interpolation Closure for Branching Time Temporal Logics"
+  authors: Renyan Feng, Yisong Wang, Mingsen Deng, Erman Acar
+  venue: IJCAI 2026 (to appear)
+  year: 2026
+  link:
+  summary: A logic-focused contribution on uniform interpolation closure for branching-time temporal logics.
 
 - title: "Explaining the Explainer: Understanding the Inner Workings of Transformer-Based Symbolic Regression Models"
   authors: Arco van Breda, Erman Acar
