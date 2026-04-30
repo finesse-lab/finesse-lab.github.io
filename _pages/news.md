@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 <p class="lab-page-intro">
-  Happy news: <em>ECSEL: Explainable Classification via Signomial Equation Learning</em> has been accepted to <strong>ICML 2026</strong>.
+  Paper <em>ECSEL: Explainable Classification via Signomial Equation Learning</em>, co-authored by Adia Lumadjeng and Ilker Birbil, got accepted to <strong>ICML 2026</strong>.
 </p>
 
 <p class="lab-page-intro">
