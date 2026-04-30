@@ -8,5 +8,9 @@ nav_order: 5
 ---
 
 <p class="lab-page-intro">
-  News updates will appear here. Various master thesis projects are also available through Finesse Lab.
+  Happy news: <em>ECSEL: Explainable Classification via Signomial Equation Learning</em> has been accepted to <strong>ICML 2026</strong>.
+</p>
+
+<p class="lab-page-intro">
+  Various master thesis projects are also available through Finesse Lab.
 </p>
