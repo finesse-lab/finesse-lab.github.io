@@ -13,6 +13,8 @@
   background: rgba(255, 253, 251, 0.96);
   border-bottom: 1px solid rgba(165, 18, 31, 0.08);
   backdrop-filter: blur(10px);
+  padding-top: 0.12rem;
+  padding-bottom: 0.25rem;
 }
 
 .navbar .container {
@@ -50,6 +52,11 @@
 .nav-link {
   font-weight: 600;
   color: #171314;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  padding-top: 0.12rem;
+  padding-bottom: 0.95rem;
 }
 
 .lab-site-banner {
@@ -514,6 +521,11 @@
   .navbar-nav {
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .nav-item {

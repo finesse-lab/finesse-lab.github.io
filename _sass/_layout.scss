@@ -3,7 +3,8 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 70px;
+  // Keep only a small reserve for the fixed copyright bar.
+  padding-bottom: 12px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
