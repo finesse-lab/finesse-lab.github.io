@@ -284,6 +284,7 @@ footer.fixed-bottom {
   line-height: 1.2;
   .container {
     color: var(--global-footer-text-color);
+    text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
   }
@@ -301,6 +302,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 // CV

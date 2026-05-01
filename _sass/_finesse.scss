@@ -50,6 +50,7 @@
 }
 
 .nav-link {
+  font-size: 1.2rem;
   font-weight: 600;
   color: #171314;
   font-variant-caps: small-caps;
@@ -113,6 +114,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
 }
 
 .lab-page-intro {
@@ -306,6 +308,7 @@
   font-size: 0.92rem;
   font-weight: 700;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
   letter-spacing: 0.08em;
 }
 
@@ -453,7 +456,28 @@
   font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
+  font-variant-caps: normal;
+}
+
+.text-uppercase,
+abbr.badge {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+.phd-word,
+.phd-word .phd-cap,
+.phd-word .phd-small {
+  color: inherit;
+}
+
+.phd-word .phd-cap {
+  font-variant-caps: normal;
+}
+
+.phd-word .phd-small {
+  font-variant-caps: small-caps;
 }
 
 .lab-person-name {

@@ -19,7 +19,14 @@
           {{ person.display_name | default: person.name }}
         {% endif %}
       </h3>
-      <p>{{ person.role }}</p>
+      {% assign phd_placeholder = '__PHD__' %}
+      {% assign role_markup = person.role
+        | replace: 'PHD', phd_placeholder
+        | replace: 'PhD', phd_placeholder
+        | replace: 'phd', phd_placeholder %}
+      {% assign role_markup = role_markup
+        | replace: phd_placeholder, '<span class="phd-word"><span class="phd-cap">P</span><span class="phd-small">h</span><span class="phd-cap">D</span></span>' %}
+      <p>{{ role_markup }}</p>
     </article>
   {% endfor %}
 </div>
