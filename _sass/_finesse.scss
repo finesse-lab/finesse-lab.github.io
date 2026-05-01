@@ -124,6 +124,36 @@
   line-height: 1.7;
 }
 
+.lab-news-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.lab-news-card {
+  padding: 1.2rem 1.35rem;
+  border: 1px solid rgba(165, 18, 31, 0.12);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top left, rgba(165, 18, 31, 0.08), transparent 45%),
+    #fffdfb;
+  box-shadow: 0 12px 28px rgba(24, 16, 17, 0.06);
+}
+
+.lab-news-card p {
+  margin: 0;
+  color: #54474a;
+  line-height: 1.7;
+}
+
+.lab-news-date {
+  margin: 0 0 0.45rem;
+  color: #a5121f !important;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-variant-caps: all-small-caps;
+}
+
 .finesse-home {
   display: grid;
   gap: 3.25rem;
