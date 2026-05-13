@@ -13,6 +13,8 @@
   background: rgba(255, 253, 251, 0.96);
   border-bottom: 1px solid rgba(165, 18, 31, 0.08);
   backdrop-filter: blur(10px);
+  padding-top: 0.12rem;
+  padding-bottom: 0.25rem;
 }
 
 .navbar .container {
@@ -26,7 +28,7 @@
 .navbar-collapse {
   display: flex !important;
   flex-basis: auto;
-  flex-grow: 0;
+  flex-grow: 1;
   justify-content: center;
 }
 
@@ -35,25 +37,34 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
 .nav-item {
-  margin: 0 0.2rem;
+  margin: 0;
   list-style: none;
 }
 
 .nav-link {
+  font-size: 1.2rem;
   font-weight: 600;
   color: #171314;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.04em;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  padding-top: 0.12rem;
+  padding-bottom: 0.95rem;
 }
 
 .lab-site-banner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0.95rem 1rem 0.1rem;
 }
 
@@ -61,6 +72,8 @@
   display: inline-flex;
   width: 100%;
   max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lab-site-banner img {
@@ -101,6 +114,7 @@
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
 }
 
 .lab-page-intro {
@@ -108,6 +122,36 @@
   color: #54474a;
   font-size: 1.08rem;
   line-height: 1.7;
+}
+
+.lab-news-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.lab-news-card {
+  padding: 1.2rem 1.35rem;
+  border: 1px solid rgba(165, 18, 31, 0.12);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top left, rgba(165, 18, 31, 0.08), transparent 45%),
+    #fffdfb;
+  box-shadow: 0 12px 28px rgba(24, 16, 17, 0.06);
+}
+
+.lab-news-card p {
+  margin: 0;
+  color: #54474a;
+  line-height: 1.7;
+}
+
+.lab-news-date {
+  margin: 0 0 0.45rem;
+  color: #a5121f !important;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-variant-caps: all-small-caps;
 }
 
 .finesse-home {
@@ -294,6 +338,7 @@
   font-size: 0.92rem;
   font-weight: 700;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
   letter-spacing: 0.08em;
 }
 
@@ -441,7 +486,28 @@
   font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
+  font-variant-caps: normal;
+}
+
+.text-uppercase,
+abbr.badge {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+.phd-word,
+.phd-word .phd-cap,
+.phd-word .phd-small {
+  color: inherit;
+}
+
+.phd-word .phd-cap {
+  font-variant-caps: normal;
+}
+
+.phd-word .phd-small {
+  font-variant-caps: small-caps;
 }
 
 .lab-person-name {
@@ -511,6 +577,11 @@
   .navbar-nav {
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .nav-item {

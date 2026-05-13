@@ -274,12 +274,19 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
+  line-height: 1.2;
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
   a {
     color: var(--global-footer-link-color);
@@ -295,6 +302,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 // CV

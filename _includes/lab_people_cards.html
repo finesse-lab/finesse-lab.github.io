@@ -13,7 +13,14 @@
         </a>
       {% endif %}
       <div class="lab-person-body">
-        <p class="lab-person-role">{{ person.role }}</p>
+        {% assign phd_placeholder = '__PHD__' %}
+        {% assign role_markup = person.role
+          | replace: 'PHD', phd_placeholder
+          | replace: 'PhD', phd_placeholder
+          | replace: 'phd', phd_placeholder %}
+        {% assign role_markup = role_markup
+          | replace: phd_placeholder, '<span class="phd-word"><span class="phd-cap">P</span><span class="phd-small">h</span><span class="phd-cap">D</span></span>' %}
+        <p class="lab-person-role">{{ role_markup }}</p>
         <h3 class="lab-person-name">
           {% if person.link %}
             <a href="{{ person.link }}">{{ person.display_name | default: person.name }}</a>
