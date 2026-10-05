@@ -26,6 +26,34 @@
   link:
   summary: A logic-focused contribution on uniform interpolation closure for branching-time temporal logics.
 
+- title: "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation"
+  authors: Zeynep Yildiz, Satchit Chatterji, Ercan Atam, Erman Acar
+  venue: ICAIF (to appear)
+  year: 2026
+  link:
+  summary: Neurosymbolic reinforcement learning for portfolio allocation under investment mandates.
+
+- title: "From Communities to Trades: Network-Guided Pair Selection and Adaptive Thresholding for Cryptocurrency Statistical Arbitrage"
+  authors: Alexandre du Prez, Mehul Verma, Erman Acar
+  venue: ICAIF (to appear)
+  year: 2026
+  link:
+  summary: Network-guided pair selection and adaptive thresholding for cryptocurrency statistical arbitrage.
+
+- title: "Amortized Interventional Forecasting for Multivariate CIR Processes"
+  authors: Andreas Sauter, Sumit Shourab, Drona Kandhai, Erman Acar
+  venue: ICAIF (to appear)
+  year: 2026
+  link:
+  summary: Amortized interventional forecasting for multivariate financial processes.
+
+- title: "From Features to Circuits: Mechanistic Interpretability for Financial Tabular Transformers"
+  authors: Arco van Breda, Saba Amiri, Ana Oprescu, Sander Klous, Erman Acar
+  venue: ICAIF (to appear)
+  year: 2026
+  link:
+  summary: Mechanistic interpretability for financial tabular transformers, moving from feature-level explanations to circuit-level analysis.
+
 - title: "Explaining the Explainer: Understanding the Inner Workings of Transformer-Based Symbolic Regression Models"
   authors: Arco van Breda, Erman Acar
   venue: ArXiv
